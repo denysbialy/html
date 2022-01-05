@@ -1,8 +1,11 @@
-.container {
-    width: 800px;
-    height: 3000px;
-    margin: 0 auto;
-  }
-  img {
-    height: 300px;
-  }
+h1::first-letter{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  color: aqua;
+  font-size: 50px;
+}
+p::first-line{
+  font-style: italic;
+  font-size: large;
+  font-weight: bold;
+}
